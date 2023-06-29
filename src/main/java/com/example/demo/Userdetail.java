@@ -57,11 +57,11 @@ public class Userdetail {
     }
 
     public String getPhone() {
-        return pnone;
+        return phone;
     }
 
     public void setPhone(String phone) {
-        this.pnone = pnone;
+        this.pnone = phone;
     }
 
 
