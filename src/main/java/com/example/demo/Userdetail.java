@@ -21,8 +21,8 @@ public class Userdetail {
     @Column(name = "email")
     private String email;
 
-    @Column(name = "pnone")
-    private String pnone;
+    @Column(name = "phone")
+    private String phone;
 
     public String getUsername() {
         return username;
@@ -56,11 +56,11 @@ public class Userdetail {
         this.email = email;
     }
 
-    public String getPnone() {
+    public String getPhone() {
         return pnone;
     }
 
-    public void setPhone(String pnone) {
+    public void setPhone(String phone) {
         this.pnone = pnone;
     }
 
